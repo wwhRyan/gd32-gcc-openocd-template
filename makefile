@@ -1,5 +1,5 @@
 
-DEVICE=GD32F30X_HD
+DEVICE=GD32E10X
 
 SRCS=$(wildcard app/src/*.c)
 LIBS=$(wildcard lib/src/*.c)
