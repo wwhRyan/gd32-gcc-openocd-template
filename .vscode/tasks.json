@@ -7,6 +7,11 @@
             "label": "Download Microcontroller",
             "type": "shell",
             "command": "openocd -f cmsis-dap.cfg -f openocd_target.cfg -c init -c halt -c \"program output.bin 0x8000000\" -c reset -c shutdown"
+        },
+        {
+            "label": "Build Microcontroller",
+            "type": "shell",
+            "command": "make"
         }
     ]
 }
